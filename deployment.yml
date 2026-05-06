@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: web-dep
+  name: test-dep
 spec:
   replicas: 1
   selector:
@@ -16,3 +16,4 @@ spec:
       containers:
       - name: nginx-con
         image: 018282086661.dkr.ecr.ap-northeast-2.amazonaws.com/web:2
+    
